@@ -1,0 +1,55 @@
+Dependencies for Project 'Snake_Game', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x6819434E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MMD)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x6797218A)
+I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CB988)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x6797218A)
+I (SysTick_Delay.h)(0x680F2731)
+I (UART0.h)(0x68194377)
+I (Game_Display.h)(0x6819417F)
+I (Game_Logic.h)(0x6819403A)
+I (Game_Replay.h)(0x681941A0)
+F (.\GPIO.c)(0x680F26D0)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/gpio.o -MMD)
+I (GPIO.h)(0x680F2719)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x6797218A)
+I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CB988)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x6797218A)
+I (SysTick_Delay.h)(0x680F2731)
+F (.\SysTick_Delay.c)(0x680F26F9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/systick_delay.o -MMD)
+I (SysTick_Delay.h)(0x680F2731)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x6797218A)
+I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CB988)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x6797218A)
+F (.\UART0.c)(0x6819433D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/uart0.o -MMD)
+I (UART0.h)(0x68194377)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x6797218A)
+I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CB988)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x6797218A)
+I (SysTick_Delay.h)(0x680F2731)
+F (.\Game_Display.c)(0x68193C81)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/game_display.o -MMD)
+I (Game_Logic.h)(0x6819403A)
+I (Game_Display.h)(0x6819417F)
+I (UART0.h)(0x68194377)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x6797218A)
+I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CB988)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x6797218A)
+F (.\Game_Logic.c)(0x68193E69)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/game_logic.o -MMD)
+I (Game_Logic.h)(0x6819403A)
+F (.\Game_Replay.c)(0x68194359)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/game_replay.o -MMD)
+I (UART0.h)(0x68194377)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x6797218A)
+I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CB988)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x6797218A)
+I (Game_Replay.h)(0x681941A0)
+F (.\GPIO.h)(0x680F2719)()
+F (.\SysTick_Delay.h)(0x680F2731)()
+F (.\UART0.h)(0x68194377)()
+F (.\Game_Display.h)(0x6819417F)()
+F (.\Game_Logic.h)(0x6819403A)()
+F (.\Game_Replay.h)(0x681941A0)()
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x6797218A)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x6797218A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="541" -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MMD)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x6797218A)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x6797218A)
+I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CB988)
+I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x6797218A)
